@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eae9ee;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    font-size: 20px;
+    margin-right: 4px;
+    padding: 8px;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    display: list-item;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+ul li {
+    margin: 8px 0;
+    padding: 8px;
+}
+
+ul .checked {
+    cursor: pointer;
+    text-decoration: line-through;
+}
